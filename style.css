@@ -1,0 +1,131 @@
+/* Whole Page */
+
+body {
+    background-color: hsl(220, 14%, 96%);
+    color: #374151;
+    font-size: 16px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 16px auto;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+}
+
+
+/* Header */
+
+header {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    padding: 16px;
+    border: 2px solid #16304F;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 0;
+}
+
+header p {
+    color: #DBEAFE;
+    font-size: 16px;
+    margin: 12px 0 0;
+}
+
+
+/* Main Content */
+
+main {
+    margin-top: 16px;
+    padding: 10px;
+    border: 1px solid #D1D5DB;
+}
+
+
+/* Section Headings */
+
+section h2 {
+    background-color: #E5EDF7;
+    color: #1E3A5F;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #D1DFF0;
+}
+
+
+/* About Me */
+
+.about {
+    margin-bottom: 14px;
+}
+
+.about p {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #D1D5DB;
+    line-height: 1.5;
+}
+
+
+/* My Skills */
+
+.skills {
+    margin-bottom: 14px;
+}
+
+.skill {
+    background-color: #DDFCE9;
+    color: #166534;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #BBF7D0;
+    font-size: 16px;
+}
+
+
+/* My Goals */
+
+.goals ul {
+    background-color: #FFF3E5;
+    color: #9A3412;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    border: 1px solid #FED7AA;
+}
+
+.goals li {
+    margin-bottom: 8px;
+}
+
+.goals li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
